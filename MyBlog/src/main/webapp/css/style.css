@@ -1,0 +1,1470 @@
+@charset "UTF-8";
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    color: pink;
+    /* color: #ff69b4; */
+    display: flex;
+    justify-content: center;
+    background-color: #f4f4f4;
+}
+
+body > * {
+    width: 100%;
+}
+
+#out_div {
+    background-color: lavenderblush;
+    width: 950px;
+    height: 1000px;
+    /* border-radius: 20px; */
+    margin: auto;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: pink;
+    /* color: #ff69b4; */
+}
+
+/* header */
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+}
+.title_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+/* 로고 */
+.logo {
+    margin: 20px;
+    /* width: 200px; */
+}
+.logo a {
+    font-size: 24pt;
+    font-weight: bold;
+    color: pink;
+    /* color: #ff69b4; */
+}
+/* 회원가입 | 로그인 */
+.auth_links {
+    font-size: 14px;
+    color: pink;
+    /* color: #ff69b4; */
+}
+.auth_links a {
+    margin: 0 10px;
+    text-decoration: none;
+}
+.auth_links a:hover {
+    text-decoration: underline;
+}
+/* 로그인 완료 / 환경설정 버튼 */
+.auth_links2 {
+    font-size: 14px;
+    color: pink;
+    /* color: #ff69b4; */
+}
+.auth_links2 a {
+    /* margin: 0 10px; */
+    text-decoration: none;
+}
+.auth_links2 .name:hover {
+    text-decoration: underline;
+}
+.auth_links2 .name {
+    font-weight: bold;
+}
+.auth_links2 .icon {
+    font-size: 15px;
+    color: pink;
+    font-weight: bold;
+/* border: #ff69b4; */
+}
+
+/* login */
+#login {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    height: 620px;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#login h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.join_btn {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+}    
+.join_btn a {
+    color: #ff69b4;
+}
+.join_btn a:hover {
+    text-decoration: underline;
+}
+
+/* join */
+#join{
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    height: 620px;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+}
+#join h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.login_btn {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+}
+.login_btn a {
+    color: pink;
+}
+.login_btn a:hover {
+    text-decoration: underline;
+}
+
+/* 검색창 */
+.header_nav {
+    display: flex;
+    justify-content: flex-end;
+}
+.search_form {
+    display: flex;
+    align-items: center;
+}
+.search_form select {
+    margin-right: 10px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+}
+.search_input {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+    margin-right: 10px;
+}
+.search_btn {
+    background-color: pink;
+    /* background-color: #ff69b4; */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.search_btn:hover {
+    background-color: #ff4c80;
+}
+.search_btn2:hover {
+    background-color: #ff4c80;
+}
+
+.search_input2 {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 20px 0 0 20px;
+    font-size: 14px;
+    /* width: 300px; */
+}
+.search_btn2 {
+    background-color: pink;
+    /* background-color: #ff69b4; */
+    color: white;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* heart top3 */
+.heart_inner
+{
+    /* width: 100%; */
+    /* display: flex; */
+    justify-content: space-between;
+    
+}
+.heart_content {
+    border-top: #ddd solid 1px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    align-items: center;
+}
+.heart_content p.number {
+    font-size: 30pt; 
+    margin: 0;
+    padding-right: 20px; 
+}
+.heart_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+    margin-left: 20px;
+}
+.heart_text h3 {
+    font-size: 1.2em;
+    margin: 0;
+}
+/* .heart_text .date {
+    color: #777;
+    font-size: 0.9em;
+    margin-top: 5px;
+} */
+.heart_text p {
+    margin: 5px 0 0 0;
+    font-size: 1em;
+    width: 590px;
+	overflow: hidden;     
+ 	display: -webkit-box;   
+	-webkit-line-clamp: 2;  
+	-webkit-box-orient: vertical;
+	/* white-space: nowrap; 
+    text-overflow: ellipsis;  
+	overflow: hidden;   */   
+}
+.heart_img {
+    width: 130px;
+    height: 110px;
+    margin-left: 20px;
+    object-fit: cover; 
+}
+
+/* friend top3 */
+.friend_inner
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.friend_inner .out
+{
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    width: 260px;
+    height: 170px;
+    padding: 10px;
+}
+.friend_inner .image
+{
+    height: 100px;
+    display: flex;
+    cursor: pointer;
+}
+.friend_inner .image > img 
+{
+    /* margin: auto; */
+    border-radius:50%;
+    height: 100px;
+    width: 105px;
+    padding: 12px;
+}
+.friend_inner .cont
+{
+    padding: 12px;
+    cursor: pointer;
+}
+.friend_inner strong
+{
+    display: block;
+    margin: 15px 0 5px 0;
+    font-size: 16px;
+    letter-spacing: -1px;
+}
+.friend_inner .san
+{
+    font-size: 12px;
+    letter-spacing: -1px;
+    margin-top:12px; 
+}
+.friend_inner .san > p
+{
+    margin:0;   
+    margin-bottom:5px;   
+}
+.friend_inner .o
+{
+    text-align: right;
+    font-size: 18px;
+    margin: auto;  
+}
+
+/* main */
+main {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    height: 700px;
+}
+
+/* section */
+main section {
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* aside */
+aside {
+    flex: 1;
+    border-radius: 0 15px 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* 왼쪽 정렬 */
+}
+/* aside h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #333;
+} */
+
+/* article */
+#art
+{
+    padding: 40px;
+}
+
+main section > article
+{
+    width: 710PX;
+    margin: 0 auto;
+    height: 100%;
+}
+#art .pmenu
+{
+    font-size: 18pt;
+    font-weight: bold;
+    margin: 8px;
+}
+.article_inner
+{
+    width: 100%;
+    /* margin-bottom: 30px; */
+}
+
+/* user_info */
+.user_info {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    text-align: center;
+}
+.user_info img {
+    border-radius: 8px;
+    width: 160px;
+    height: 160px;
+}
+.user_info h3 {
+    margin: 20px 0 10px;
+    color: #333;
+}
+.user_info p {
+    margin: 0;
+    color: #555;
+}
+.user_info .friend_btn {
+    margin-top: 10px;
+    background-color: pink;
+    /* background-color: #ff69b4; */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.user_info .friend_btn:hover {
+    background-color: #ff4c80;
+}
+
+.dropdown2 {
+    position: relative;
+    display: flex;
+    justify-content: center; /* 부모 요소 안에서 가운데 정렬 */
+}
+
+.dropdown_btn2 {
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.dropdown_menu2 {
+    display: none; /* 기본적으로 숨김 */
+    position: absolute;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 4px;
+    top: 40%;
+}
+
+.dropdown_link2 {
+    display: flex;
+    color: pink;
+    padding: 5px; /* 패딩 추가하여 클릭 영역을 넓힘 */
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: white;
+}
+
+.dropdown_link2:hover {
+    background-color: #f1f1f1; /* 호버 시 배경색 변경 */
+    text-decoration: underline;
+}
+
+.dropdown-divider {
+    border: none; /* 기본 경계 제거 */
+    border-top: 1px solid #ccc; /* 회색의 선으로 설정 */
+    margin: 0; /* 위와 아래 여백 설정 */
+    width: 100%; /* 너비를 전체로 설정 */
+    height: 0; /* 높이 0으로 설정 */
+}
+
+
+
+
+
+/* 드롭다운 */
+.dropdown {
+    position: relative;
+}
+.dropdown_btn:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.dropdown_menu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 4px;
+}
+
+.dropdown_link{
+     display: flex;
+     color: pink;
+    /* color: #ff69b4; */
+    padding: 10px;
+    text-decoration: none;
+    width: 140px;  
+	height: 30px;
+/* 	font-size: 14px; */
+	justify-content: center;
+    align-items: center;
+}
+.flist{
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+
+.dropdown_btn .fr{
+	width: 13px;
+	height: 13px;
+}
+
+.dropdown_link a{
+	margin: auto;
+} */
+.dropdown_link:hover {
+    background-color: #f1f1f1;
+    /* text-decoration: underline; */
+}
+
+.dropdown_link .fbtn{
+	display:flex;
+	flex-direction: column; 
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 5px; */
+    
+}
+.friend_ {
+    /*  width: 35px; 
+	height: 20px;  */
+	background-color: pink;
+    color: white;
+    border: none;
+    border-radius: 3px;
+  /*   padding: 8px 12px; */
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.dropdown_menu a:hover {
+    text-decoration: underline;
+}
+.show {
+    display: block;
+}
+.friend_delete{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  /*   color: pink */;
+    /* color: #ff69b4; */
+    font-size: 16px;
+    padding: 12px 16px;
+}
+
+/* menu */
+.menu {
+    margin-top: 20px;
+    width: 100%;
+}
+.menu button {
+    width: 100%;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.menu button:hover {
+    background-color: #f0f0f0;
+}
+.menu button.active {
+    background-color: pink;
+    /* background-color: #ff69b4; */
+    color: white;
+}
+
+/* setting */
+/* lifeWrite */
+#setting, #lwrite, #myblog, #sblog_list {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    padding: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 620px;
+}
+#setting h2, #lwrite h2, #myblog h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.input_group {
+    margin-bottom: 20px;
+    text-align: left;
+    width: 100%;
+}
+.input_group label {
+    font-size: 14px;
+    margin-bottom: 8px;
+    display: block;
+    color: #333;
+}
+.input_group input[type="text"],
+.input_group input[type="password"],
+.input_group input[type="email"],
+.input_group input[type="date"],
+.input_group textarea {
+    width: 452px;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    color: #333;
+}
+.input_group input[type="text"]:focus,
+.input_group input[type="password"]:focus,
+.input_group input[type="email"]:focus,
+.input_group input[type="date"]:focus,
+.input_group textarea:focus {
+    border-color: pink;
+    /* border-color: #ff69b4; */
+    outline: none;
+}
+#diary_container2 > .input_group textarea {
+    resize: vertical;
+    /* height: 200px; */
+}
+.input_group textarea {
+    resize: vertical;
+ /*    height: 200px; */
+}
+#lwrite > .input_group textarea {
+    resize: vertical;
+    /* height: 100px; */
+}
+.input_group input[type="file"] {
+    border: none;
+}
+._btn {
+    background-color: pink;
+    /* background-color: #ff69b4; */
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+._btn:hover {
+    background-color: #ff4c80;
+}
+.back {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+}
+.back a {
+    color: pink;
+    /* color: #ff69b4; */
+}
+.back a:hover {
+    text-decoration: underline;
+}
+
+/* diaryList */
+/* lifeList */
+.diary_list h2, .life_list h2 {
+    font-size: 24px;
+    /* margin-bottom: 30px; */
+    text-align: center;
+}
+.diary_list, .life_list {
+    /* margin-top: 20px; */
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    padding: 40px;
+    height: 620px;
+    /* text-align: center; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+.diary, .life {
+    background-color: white;
+    padding: 20px;
+    /* margin-bottom: 20px; */
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    /* border-radius: 8px; */
+    border-top: #ddd solid 1px;
+    /* border-style: solid none none none; */
+    display: flex;
+}
+.diary_header, .life_header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 20px;
+height: 38.75px;
+}
+.diary_header h2, .life_header h2 {
+font-size: 24px;
+margin: 0;
+}
+.write_btn {
+background-color: pink;
+/* background-color: #ff69b4; */
+color: white;
+border: none;
+padding: 10px 20px;
+border-radius: 4px;
+font-size: 14px;
+cursor: pointer;
+}
+.write_btn:hover {
+background-color: #ff4c80;
+}
+.diary_img, .life_img{
+width: 135px;
+height: 135px;
+margin-left: 20px;
+}
+.text_content {
+width:400px;
+}
+.text_content h3 {
+margin: 0;
+font-size: 1.2em;
+}
+.text_content p {
+margin: 0;
+margin-top: 10px;
+height: 68px;
+overflow: hidden;     
+display: -webkit-box;  
+-webkit-box-orient: vertical; 
+-webkit-line-clamp: 3; 
+}
+
+/* diaryView */
+.dwrite_header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+}
+.weather_icons, .mood_icons {
+    cursor: pointer;
+}
+.weather_icons span, .mood_icons span {
+    padding: 5px;
+}
+.choice{
+    border: 1px solid #ff4c80;
+    border-radius: 20px;
+}
+.title_input {
+    margin-top: 10px;
+}
+.title_input input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid black;
+}
+.image_grid {
+    margin-top: 10px;
+    /* border: 1px solid black; */
+    height: 280px;
+    width: 100%;
+    /* padding: 5px;
+    text-align: center; */
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.image_grid img{
+    width: 300px;
+    height: 100%;
+}
+/* 줄이 있는 노트 스타일 */
+.diary_note {
+    /* margin-top: 10px; */
+    /* border: 1px solid black; */
+    height: 200px;
+    width: 100%;
+    /* padding: 10px; */
+    background-image: linear-gradient(white 98%, #ddd 2%);
+    background-size: 100% 50px;
+    line-height: 25px;
+    /* font-family: 'Courier New', Courier, monospace; */
+    /* white-space: pre-wrap; */
+    font-size: 30px;
+    line-height:50px;
+    text-align: left;
+}
+.diary_note[contenteditable="true"] {
+    background-color: #f9f9f9;
+}
+.diary_container {
+    /* width: 600px;
+    padding: 10px;
+    margin: 0 auto; */
+    /* border: 1px solid black; */
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    padding: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 620px;
+    overflow-y: auto;
+}
+
+/* diaryWrite */
+#diary_container2 {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    padding: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 620px;
+    overflow-y: auto;
+}
+#diary_container2 h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+/*  .weather_group,
+.mood_group {
+    margin-bottom: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}  */
+/* .weather_group label,
+.mood_group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #333;
+} */
+.weather_group input,
+.mood_group input {
+    margin-left: 10px;
+}
+
+.weather_group input[type=radio],
+.mood_group input[type=radio]{
+    display: none;
+}
+
+.weather_group input[type=radio]+label,
+.mood_group input[type=radio]+label{
+    display: inline-block;
+    cursor: pointer;
+    height: 35px;
+    width: 35px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    line-height: 35px;
+    text-align: center;
+    font-weight:bold;
+    font-size:15px;
+}
+.weather_group input[type=radio]+label,
+.mood_group input[type=radio]+label{
+    background-color: white;
+    color: pink;
+    /* margin-right:5px; */
+}
+.weather_group input[type=radio]:checked+label,
+.mood_group input[type=radio]:checked+label{
+    background-color: pink;
+    color: white;
+}
+
+/* qna */
+.qna_list h2 {
+    font-size: 24px;
+    /* margin-bottom: 30px; */
+    text-align: center;
+}
+.qna_list {
+    /* margin-top: 20px; */
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    padding: 40px;
+    /* text-align: center; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    height: 620px;
+}
+.question_item {
+    background-color: white;
+    padding: 20px;
+    /* margin-bottom: 20px; */
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    /* border-radius: 8px; */
+    border-top: #ddd solid 1px;
+    /* border-style: solid none none none; */
+    height: 135px;
+}
+.question_item2 {
+    background-color: white;
+    padding: 20px;
+    /* margin-bottom: 20px; */
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    /* border-radius: 8px; */
+    /* border-top: #ddd solid 1px; */
+    /* border-style: solid none none none; */
+}
+/* .question-item h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    text-align: center;
+} */
+a #qnote {
+	height: 100px;
+	overflow: hidden;     
+	display: -webkit-box; 
+	-webkit-box-orient: vertical;  
+	-webkit-line-clamp: 4; 
+	margin: 0;
+} 
+
+/* .text_content p {
+margin: 0;
+height: 109.5px;
+overflow: hidden;     
+display: -webkit-box;   
+-webkit-line-clamp: 5; 
+} */
+.question_item p {
+    margin: 0;
+    color: #555;
+}
+.qna_setting {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.qna_setting span {
+    color: #999;
+}
+.question_actions {
+    display: flex;
+   /*  align-items: center; */
+}
+.question_actions span {
+    /* margin-right: 10px; */
+    font-size: 16px;
+}
+.question_actions button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    /* color: #ff69b4; */
+    color: lightgray;
+    font-size: 18px;
+}
+.question_actions button:hover {
+    color: #ff4c80;
+}
+.qna_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    height: 38.75px;
+}
+.qna_header h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+/* qnaWrite */
+.qna_container3 {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    padding: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* height: 620px; */
+}
+.qna_container3 h1 {
+    text-align: center;
+    color: pink;
+    /* color: #ff69b4; */
+}
+.question_form {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.question_form input, .question_form textarea {
+    width: 420px;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    /* font-size: 16px; */
+    color: #333;
+    margin-bottom: 20px;
+}
+.question_form textarea:focus {
+    border-color: pink;
+    /* border-color: #ff69b4; */
+    outline: none;
+}
+.question_form label {
+    font-size: 14px;
+    margin-bottom: 8px;
+    display: block;
+    color: #333;
+    /* text-align: left; */
+}
+.question_form h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+/* aWrite */
+.a_btn{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: pink;
+    /* color: #ff69b4; */
+    /* font-size: 16px;
+    padding: 12px 16px; */
+}
+
+/* lifeView */
+.life_view {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width:600px;
+    height: 620px;
+    overflow-y: auto;
+}
+.life_view h3 {
+    /* font-size: 28px; */
+    margin: 0 0 10px 0;
+    color: #333;
+}
+.life_info {
+    color: #999;
+    font-size: 14px;
+    margin: 10px 0;
+    display: flex;
+}
+.life_content {
+    /* font-size: 18px; */
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 40px;
+}
+.list_btn {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.list_btn a {
+    color: pink;
+    text-decoration: none;
+}
+.list_btn a:hover {
+    text-decoration: underline;
+    /* background-color: #ff4c80; */
+}
+
+.view_head .hm{
+	
+	margin: 0;
+}
+
+.question_item2 .view_head > h3{
+	margin: 0;	
+	color: white;
+}
+
+.question_item2 .view_head{
+	 position: relative;
+	 /* border: 1px solid #f0f0f0; */
+	 border-radius: 4px;
+	 padding: 10px;
+	 background-color: pink;
+}
+
+.question_item2 .view_head:after {
+	content: '';
+	position: absolute;
+	left: -20px;  
+	width: 0;
+  	height: 0;
+ 	border: 11px solid transparent; 
+    border-right-color: pink; 
+    
+}
+
+.comment_item2 {
+    /* border-top: 1px solid #ddd; */
+    padding: 20px 0;
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 4px;
+    position: relative;
+   /*  width: 520px; */
+}
+
+.comment_item2:after {
+ content: '';
+  position: absolute;
+  /*  top: 50%;  */
+  right: -20px;  /* 오른쪽에 위치 */
+transform: translateY(-100%); 
+  width: 0;
+  height: 0;
+  border: 11px solid transparent;
+  border-left-color:  #f0f0f0;  /* 꼬리의 색상 */
+ /*  border-right: 0; */
+}
+
+.comment_item2:first-child {
+    border-top: none;
+}
+
+.no_after:after {
+    content: none; /* after 제거 */
+}
+
+.comment_info2 {
+    color: #999;
+    font-size: 14px;
+}
+
+.comment_text2 {
+    /* font-size: 16px; */
+    color: #555;
+}
+
+
+/* 댓글 섹션 */
+.comments {
+    margin-top: 40px;
+    max-height: 620px;
+    overflow-y: auto;
+}
+.comments2 {
+    margin-top: 40px;
+    max-height: 620px;
+}
+
+.comments h3 {
+    /* font-size: 24px; */
+    margin-bottom: 20px;
+}
+
+.comment_item {
+    border-top: 1px solid #ddd;
+    padding: 20px 0;
+}
+
+.comment_item:first-child {
+    border-top: none;
+}
+
+.comment_info {
+    color: #999;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.comment_text {
+    /* font-size: 16px; */
+    color: #555;
+}
+
+.write_comment {
+    margin-top: 40px;
+    display: flex;
+}
+
+.write_comment textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    resize: vertical;
+}
+
+.write_comment button {
+    background-color: pink;
+    /* background-color: #ff69b4; */
+    color: white;
+    /* padding: 10px; */
+    border: none;
+    border-radius: 8px;
+    /* font-size: 16px; */
+    margin: 30px 0 0 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 90px;
+    height: 40px;
+}
+
+.write_comment button:hover {
+    background-color: #ff4c80;
+}
+.post_{
+	display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 가로 2개 */
+    grid-template-rows: repeat(4, 1fr);   /* 세로 4개 */
+    gap: 20px; /* 각 div 간의 간격 */
+    /* width: 50%;
+    max-width: 600px; */
+    margin-bottom: 20px;
+    
+}
+
+.post_list {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+   /*  margin-bottom: 20px; */
+    padding: 5px;
+    cursor: pointer;
+   /*  width: 420px;*/
+    height: 140px; 
+    align-items: center;
+}
+
+.post_list:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.post_list img{
+	width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.post_list h2 {
+    margin: 0;
+    font-size: 1.3rem;
+   	white-space: nowrap;
+	overflow: hidden;          
+    text-overflow: ellipsis; 
+    
+}
+
+.post_date {
+    color: #888;
+    font-size: 0.8rem;
+}
+
+.Post_content {
+    /* color: #333; */
+    color: pink;
+    margin: 0;
+    font-size: 0.9rem;
+    overflow: hidden;     
+ 	display: -webkit-box;   
+	-webkit-line-clamp: 2;  
+	-webkit-box-orient: vertical;
+}
+
+.life_content span{
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.life_view h3 > button{
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: #ff69b4;
+    font-size: 18px;
+    text-align: right;
+}
+
+.life_content button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: #ff69b4;
+    font-size: 18px;
+    text-align: center;
+}
+
+.no_data{
+	text-align: center;
+}
+
+.no_data h2,
+.no_data h3{
+	margin:0;
+}
+
+.no_data h2 > span{
+	color: #ff4c80;
+}
+
+.input_group #dwrite_date, 
+.input_group #dwrite_day{
+	width: 200px;
+}
+#submenu1{
+	position: relative;
+}
+
+#downmenu1 {
+	position: absolute;
+	background-color: white;
+	display: none;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    gap: 10px;  /* 각 링크 사이에 간격 추가 */
+    text-align: center;
+}
+
+#downmenu1 a {
+    color: black;  /* 텍스트 색상 */
+    padding: 5px;  /* 클릭 영역을 넓히기 위해 패딩 추가 */
+}
+#downmenu1 a:hover {
+    text-decoration: underline;
+}
+
+.blog-intro, .popular-posts {
+    text-align: center;
+}
+.popular-posts-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-intro h2, .popular-posts h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.post-card p{
+	white-space: nowrap;
+	overflow: hidden;          
+    text-overflow: ellipsis; 
+}
+
+.post-card {
+    display: inline-block;
+    background-color: lavenderblush;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    width: 230px;
+    padding: 20px;
+    text-align: left;
+}
+
+.post-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.post-card h3 a {
+    color: pink;
+    text-decoration: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block; /* 또는 inline-block */
+    width: 230px; 
+}
+.post-card h3 a:hover {
+    text-decoration: underline;
+}
+
+.md {
+    display: flex;
+    align-items: center;
+}
+.md button {
+    padding:0;
+    border: none;
+    background: none;
+    color: #999;
+    font-size: 14px;
+}
+.md button:hover {
+    font-weight : bold;
+    text-decoration: underline;
+}
+.dmd {
+    display: flex;
+    align-items: center;
+    margin-left: 525px;
+}
+.dmd button {
+    padding:0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: #999;
+    font-size: 14px;
+}
+.dmd button:hover {
+    font-weight : bold;
+    text-decoration: underline;
+}
+
+/* button .iicon
+{
+	width:20px;
+	border: 1px black solid;
+} */
+
+
+.pc{
+	display: flex;
+}
+
+/* 페이징 */
+.paging_inner{
+    width: 100%;
+    text-align: center;
+  }
+
+/* footer */
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+} 

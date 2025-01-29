@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+	while(frs.next())
+								{
+	                            	 
+									// 출력 할 데이터 한행씩 반복
+									name = frs.getString("nickname"); 
+									fdate = frs.getString("fdate");
+									fstate = frs.getString("fstate");
+									fno = frs.getInt("fno");
+									rbno = frs.getInt("rbno");
+									tbno = frs.getInt("tbno");
+									
+									if(session.getAttribute("Bno") != null && !session.getAttribute("Bno").equals(bno))
+		                            {
+			                            if(fstate.equals("Y"))
+			                            {
+			                            	%>
+			                                <div class="dropdown_link">
+			                                    <a href="../blog/myblog.jsp?bno=<%= bno %>"><%= name %></a>
+			                                </div>   
+		                                    <%
+			                            }
+		                            }
+                                    if(session.getAttribute("Bno") != null && session.getAttribute("Bno").equals(bno))
+		                            {
+			                            if(fstate.equals("R"))
+			                            {
+			                            %> 	
+			                            	<div class="dropdown_link">
+			                                    <a href="../blog/myblog.jsp?bno=<%= bno %>"><%= bno %>&nbsp;&nbsp;<%= name %></a>
+			                            		<div class="fbtn">
+			                                    	<a href="../blog/friendAcceptanceOk.jsp?fno=<%= fno %>"><button class="friend_">수락</button></a>
+			                                    	<a href="../blog/friendDeleteOk.jsp?fno=<%= fno %>"><button class="friend_">거절</button></a>
+			                                    </div>	
+			                                </div> 
+	                                    <%
+			                            }
+			                            if(fstate.equals("Y"))
+			                            {
+			                            %>
+				                            <div class="dropdown_link">
+			                                    <a href="../blog/myblog.jsp?bno=<%= bno %>"><%= bno %>&nbsp;&nbsp;<%= name %></a>
+					                            <div class="fbtn">
+				                                    <a href="../blog/friendDeleteOk.jsp?fno=<%= fno %>"><button class="friend_delete">&#9746;</button></a>
+			                                    </div>	
+			                                </div> 
+			                            <%
+			                            }
+		                            }
+								} 
