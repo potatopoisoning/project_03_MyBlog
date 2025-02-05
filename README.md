@@ -16,16 +16,19 @@
 ![로그인](https://github.com/user-attachments/assets/a8d2635e-31d7-47e9-9d00-2c74850508ec)
 
 로그인 페이지
+
 <br><br>
 ![image](https://github.com/user-attachments/assets/ce28c8d1-5f2b-44ac-8929-3e870842176a)
 
 MyBlog는 로그인 후 이용 가능합니다.
+
 <br><br>
 ![로그인후](https://github.com/user-attachments/assets/0f9125e5-d465-4d56-887d-27c0392591cb)
 
 로그인 후 
 1. 오른쪽 상단의 별명을 클릭하면 언제든지 내 블로그로 이동하고, 프로필 수정 및 로그아웃이 가능합니다.
 2. 검색창이나 인기 블로그를 통해 다른 사람의 블로그를 구경하고, 좋아요 및 댓글을 남길 수 있습니다.
+
 <br><br>
 ![블로그홈](https://github.com/user-attachments/assets/33b8cf7e-c60a-41a9-8c53-4080e03b6ce2)
 ![image](https://github.com/user-attachments/assets/45b1ea82-6ed7-40f1-8f88-334afcdda40b)
@@ -37,6 +40,7 @@ MyBlog는 로그인 후 이용 가능합니다.
 3. 별명 옆의 톱니바퀴를 클릭하면 프로필을 수정할 수 있습니다.
 4. 친구를 클릭하면 친구 목록을 확인할 수 있습니다.
  4-1. 친구 요청이 있을 경우 느낌표 아이콘이 표시됩니다.
+   
 <br><br>
 
 
