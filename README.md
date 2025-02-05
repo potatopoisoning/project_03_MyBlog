@@ -48,6 +48,11 @@ MyBlog는 로그인 후 이용 가능합니다.
 
 프로필 수정 시 블로그명, 별명, 소개글, 프로필 사진을 변경할 수 있습니다.
 
+<br><br>
+![image](https://github.com/user-attachments/assets/27c424af-71e8-45b1-b290-cc5731e496b3)
+![image](https://github.com/user-attachments/assets/19a86d90-7881-4620-84bd-ccfb7fc65133)
+![image](https://github.com/user-attachments/assets/549d8169-1a51-4e11-83ca-a85054d023d8)
+![image](https://github.com/user-attachments/assets/ab8b1b71-51a2-48ae-87e7-72bb0f938c78)
 
 
 
