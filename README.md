@@ -8,6 +8,7 @@
 5. 조회수 상위 3개의 일상 글을 보여줍니다.
 
 <br><br>
+
 ![회원가입](https://github.com/user-attachments/assets/25116962-b971-4d68-b8d5-6ad2127bca5c)
 
 회원가입 페이지
@@ -18,11 +19,13 @@
 로그인 페이지
 
 <br><br>
+
 ![image](https://github.com/user-attachments/assets/ce28c8d1-5f2b-44ac-8929-3e870842176a)
 
 MyBlog는 로그인 후 이용 가능합니다.
 
 <br><br>
+
 ![로그인후](https://github.com/user-attachments/assets/0f9125e5-d465-4d56-887d-27c0392591cb)
 
 로그인 후 
@@ -30,6 +33,7 @@ MyBlog는 로그인 후 이용 가능합니다.
 2. 검색창이나 인기 블로그를 통해 다른 사람의 블로그를 구경하고, 좋아요 및 댓글을 남길 수 있습니다.
 
 <br><br>
+
 ![블로그홈](https://github.com/user-attachments/assets/33b8cf7e-c60a-41a9-8c53-4080e03b6ce2)
 
 나의 블로그 메뉴를 클릭하면
@@ -44,17 +48,33 @@ MyBlog는 로그인 후 이용 가능합니다.
  5-2. 일기는 블로그 주인만 이용할 수 있습니다.<br>
    
 <br><br>
+
 ![프로필수정](https://github.com/user-attachments/assets/86f7dd9b-9bf4-4398-8920-48fa24df8ff2)
 
 프로필 수정 시 블로그명, 별명, 소개글, 프로필 사진을 변경할 수 있습니다.
 
 <br><br>
+
 ![image](https://github.com/user-attachments/assets/27c424af-71e8-45b1-b290-cc5731e496b3)
+
+일상글
+
+<br><br>
+
 ![image](https://github.com/user-attachments/assets/19a86d90-7881-4620-84bd-ccfb7fc65133)
+![image](https://github.com/user-attachments/assets/25472fd5-8f5e-4f4d-8e85-20752c037685)
+![image](https://github.com/user-attachments/assets/326cf243-1b23-42aa-9885-51011dd0df34)
+
+Q&A
+
+<br><br>
+
 ![image](https://github.com/user-attachments/assets/549d8169-1a51-4e11-83ca-a85054d023d8)
 ![image](https://github.com/user-attachments/assets/ab8b1b71-51a2-48ae-87e7-72bb0f938c78)
 
+일기
 
+<br><br>
 
 ![2](https://github.com/user-attachments/assets/e74a623d-587a-475f-b88b-e5ee8f7985f9)
 
