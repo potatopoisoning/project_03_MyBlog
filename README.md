@@ -7,18 +7,26 @@
 4. 친구 수 상위 3명의 이용자를 표시합니다.
 5. 조회 수 상위 3개의 일상 글을 보여줍니다.
 
+
 ![image](https://github.com/user-attachments/assets/ce28c8d1-5f2b-44ac-8929-3e870842176a)
+
 MyBlog는 로그인 후 이용 가능합니다.
 
+
 ![회원가입](https://github.com/user-attachments/assets/25116962-b971-4d68-b8d5-6ad2127bca5c)
+
 회원가입 페이지
 
+
 ![로그인](https://github.com/user-attachments/assets/a8d2635e-31d7-47e9-9d00-2c74850508ec)
+
 로그인 페이지
+
 
 ![로그인후](https://github.com/user-attachments/assets/0f9125e5-d465-4d56-887d-27c0392591cb)
 
 로그인 후 내 블로그 홈으로 이동하거나 프로필을 수정할 수 있으며, 다른 사람의 블로그를 구경하거나 좋아요 및 댓글을 남길 수 있습니다.
+
 
 
 
