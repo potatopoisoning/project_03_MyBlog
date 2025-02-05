@@ -1,4 +1,4 @@
-# project_03
+# MyBlog(project_03)
 
 ![image](https://github.com/user-attachments/assets/878bcd08-a99a-4358-9561-640c369dc987)
 
