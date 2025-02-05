@@ -83,17 +83,15 @@ MyBlog는 로그인 후 이용 가능합니다.
 
 <br><br>
 
-![image](https://github.com/user-attachments/assets/19a86d90-7881-4620-84bd-ccfb7fc65133)
+![2025-02-06 02 50 08](https://github.com/user-attachments/assets/fe392052-fdad-4674-a41a-5c8729d16d9a)
 
-<br><br>
-
-![image](https://github.com/user-attachments/assets/25472fd5-8f5e-4f4d-8e85-20752c037685)
+Q&A에 답변이 달렸을 경우, "답변 등록 완료"라고 표시됩니다.
 
 <br><br>
 
 ![image](https://github.com/user-attachments/assets/326cf243-1b23-42aa-9885-51011dd0df34)
 
-Q&A
+Q&A의 답변은 블로그 주인만 작성할 수 있습니다.
 
 <br><br>
 
