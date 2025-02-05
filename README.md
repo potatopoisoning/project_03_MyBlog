@@ -9,14 +9,15 @@
 
 <br><br>
 
-![회원가입](https://github.com/user-attachments/assets/25116962-b971-4d68-b8d5-6ad2127bca5c)
+![image](https://github.com/user-attachments/assets/07f2c5fd-4e9a-484f-b7f1-a2798454fb7c)
 
-회원가입 페이지
+
+회원가입 시 아이디, 비밀번호, 이메일, 별명, 블로그명을 입력합니다. 아이디는 중복될 수 없으므로 중복 체크를 진행합니다.
 
 <br><br>
 ![로그인](https://github.com/user-attachments/assets/a8d2635e-31d7-47e9-9d00-2c74850508ec)
 
-로그인 페이지
+아이디와 비밀번호를 입력한 후, 로그인을 진행합니다.
 
 <br><br>
 
