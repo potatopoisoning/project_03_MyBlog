@@ -83,7 +83,7 @@ MyBlog는 로그인 후 이용 가능합니다.
 
 <br><br>
 
-![2025-02-06 02 50 08](https://github.com/user-attachments/assets/fe392052-fdad-4674-a41a-5c8729d16d9a)
+![2025-02-06 02 50 08](https://github.com/user-attachments/assets/c7ed8240-10ea-475c-93a1-7aaf8eb2dd30)
 
 Q&A에 답변이 달렸을 경우, "답변 등록 완료"라고 표시됩니다.
 
