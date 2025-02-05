@@ -27,7 +27,8 @@ MyBlog는 로그인 후 이용 가능합니다.
 
 <br><br>
 
-![로그인후](https://github.com/user-attachments/assets/0f9125e5-d465-4d56-887d-27c0392591cb)
+![2025-02-06 02 22 40](https://github.com/user-attachments/assets/5bfa0d01-b109-4f3c-94d2-45e54fe907d2)
+
 
 로그인 후 
 1. 오른쪽 상단의 별명을 클릭하면 언제든지 내 블로그로 이동하고, 프로필 수정 및 로그아웃이 가능합니다.
@@ -35,7 +36,8 @@ MyBlog는 로그인 후 이용 가능합니다.
 
 <br><br>
 
-![블로그홈](https://github.com/user-attachments/assets/33b8cf7e-c60a-41a9-8c53-4080e03b6ce2)
+![2025-02-06 02 25 00](https://github.com/user-attachments/assets/8c149bc1-e26b-42c6-a529-84413cc26e98)
+
 
 나의 블로그 메뉴를 클릭하면
 
