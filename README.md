@@ -84,7 +84,13 @@ MyBlog는 로그인 후 이용 가능합니다.
 <br><br>
 
 ![image](https://github.com/user-attachments/assets/19a86d90-7881-4620-84bd-ccfb7fc65133)
+
+<br><br>
+
 ![image](https://github.com/user-attachments/assets/25472fd5-8f5e-4f4d-8e85-20752c037685)
+
+<br><br>
+
 ![image](https://github.com/user-attachments/assets/326cf243-1b23-42aa-9885-51011dd0df34)
 
 Q&A
@@ -95,12 +101,16 @@ Q&A
 
 일기 쓰기 버튼을 클릭하면 일기를 작성할 수 있습니다.
 
+<br><br>
+
 ![image](https://github.com/user-attachments/assets/2822a6bc-a525-4c39-9c40-520e22141989)
 
 날짜, 기분, 날씨를 선택한 후 요일과 제목, 내용을 입력하고 저장 버튼을 누르면 글이 등록됩니다.
 
+<br><br>
+
 ![image](https://github.com/user-attachments/assets/ab8b1b71-51a2-48ae-87e7-72bb0f938c78)
 
-일기
+등록된 일기는 블로그 주인만 볼 수 있습니다.
 
 <br><br>
