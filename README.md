@@ -61,10 +61,19 @@ MyBlog는 로그인 후 이용 가능합니다.
 <br><br>
 
 ![image](https://github.com/user-attachments/assets/27c424af-71e8-45b1-b290-cc5731e496b3)
+
+일상 쓰기 버튼을 클릭하면 일상글을 작성할 수 있습니다.
+
+<br><br>
+
 ![image](https://github.com/user-attachments/assets/e65947d2-8276-4bab-bb22-1bf1e95af8b5)
+
+제목과 내용을 입력한 후 저장 버튼을 누르면 글이 등록됩니다.
+
+<br><br>
+
 ![2025-02-06 01 55 00](https://github.com/user-attachments/assets/7df5d302-9e47-46b9-9a8f-96ceb1baeaf7)
 
-일상글
 1. 좋아요를 누르거나 취소할 수 있습니다.
 2. 댓글을 작성할 수 있습니다.
 3. 블로그 주인과 친구일 경우 별명 옆에 연분홍 하트 아이콘이 표시됩니다.
@@ -82,6 +91,13 @@ Q&A
 <br><br>
 
 ![image](https://github.com/user-attachments/assets/549d8169-1a51-4e11-83ca-a85054d023d8)
+
+일기 쓰기 버튼을 클릭하면 일기를 작성할 수 있습니다.
+
+![image](https://github.com/user-attachments/assets/2822a6bc-a525-4c39-9c40-520e22141989)
+
+날짜, 기분, 날씨를 선택한 후 요일과 제목, 내용을 입력하고 저장 버튼을 누르면 글이 등록됩니다.
+
 ![image](https://github.com/user-attachments/assets/ab8b1b71-51a2-48ae-87e7-72bb0f938c78)
 
 일기
