@@ -1,5 +1,35 @@
 # MyBlog
 
+
+<br>
+
+## 프로젝트 소개
+일상과 생각을 자유롭게 나누고, 익명으로 질문과 답변을 통해 소통할 수 있는 공간을 제공하는 블로그입니다.  
+
+<br>
+
+## 개발 기간
+2024.09.11 - 2024.10.02
+
+<br>
+  
+## 멤버 구성
+개인 프로젝트
+
+<br>
+
+## 개발 환경
+- `java 13`
+- `jdk 13.0.2`
+- **IDE** : Eclipse
+- **Database** : MySQL
+  
+<br>
+
+## 주요 기능
+
+### <인덱스>
+
 ![1](https://github.com/user-attachments/assets/35169cdf-cb70-4048-915c-0e32a1079550)
 1. 모든 사용자의 블로그를 확인할 수 있는 인덱스 페이지로 이동합니다.
 2. 비회원은 회원가입을, 회원은 로그인을 진행할 수 있습니다.
@@ -9,6 +39,8 @@
 
 <br><br>
 
+### <회원가입>
+
 ![image](https://github.com/user-attachments/assets/07f2c5fd-4e9a-484f-b7f1-a2798454fb7c)
 
 
@@ -16,6 +48,9 @@
 아이디는 중복될 수 없으므로 중복 체크를 진행합니다.
 
 <br><br>
+
+### <로그인>
+
 ![로그인](https://github.com/user-attachments/assets/a8d2635e-31d7-47e9-9d00-2c74850508ec)
 
 아이디와 비밀번호를 입력한 후, 로그인을 진행합니다.
@@ -37,6 +72,9 @@ MyBlog는 로그인 후 이용 가능합니다.
 
 <br><br>
 
+### <나의 블로그>
+- #### 블로그홈
+
 ![2025-02-06 02 25 00](https://github.com/user-attachments/assets/8c149bc1-e26b-42c6-a529-84413cc26e98)
 
 
@@ -55,11 +93,15 @@ MyBlog는 로그인 후 이용 가능합니다.
    
 <br><br>
 
+- #### 프로필 수정
+
 ![프로필수정](https://github.com/user-attachments/assets/86f7dd9b-9bf4-4398-8920-48fa24df8ff2)
 
 프로필 수정 시 블로그명, 별명, 소개글, 프로필 사진을 변경할 수 있습니다.
 
 <br><br>
+
+- #### 일상
 
 ![image](https://github.com/user-attachments/assets/27c424af-71e8-45b1-b290-cc5731e496b3)
 
@@ -83,6 +125,8 @@ MyBlog는 로그인 후 이용 가능합니다.
 
 <br><br>
 
+- #### Q&A
+
 ![2025-02-06 02 50 08](https://github.com/user-attachments/assets/c7ed8240-10ea-475c-93a1-7aaf8eb2dd30)
 
 Q&A에 답변이 달렸을 경우, "답변 등록 완료"라고 표시됩니다.
@@ -94,6 +138,8 @@ Q&A에 답변이 달렸을 경우, "답변 등록 완료"라고 표시됩니다.
 Q&A의 답변은 블로그 주인만 작성할 수 있습니다.
 
 <br><br>
+
+- #### 일기
 
 ![image](https://github.com/user-attachments/assets/549d8169-1a51-4e11-83ca-a85054d023d8)
 
@@ -110,5 +156,12 @@ Q&A의 답변은 블로그 주인만 작성할 수 있습니다.
 ![image](https://github.com/user-attachments/assets/ab8b1b71-51a2-48ae-87e7-72bb0f938c78)
 
 등록된 일기는 블로그 주인만 볼 수 있습니다.
+
+<br><br>
+
+## 아쉬운점
+- 친구 목록이 정렬되지 않는다.
+- 글 작성 시 친구 공개, 비공개 등 공개 여부 기능이 추가되면 좀 더 프라이빗하게 블로그를 이용할 수 있을 것 같다.
+
 
 <br><br><br>
