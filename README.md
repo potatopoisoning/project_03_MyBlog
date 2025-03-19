@@ -1,5 +1,7 @@
 # MyBlog
-[My Blog 링크](http://52.79.242.234:8080/Myblog/index/index.jsp)
+- [My Blog 링크](http://52.79.242.234:8080/Myblog/index/index.jsp)
+- **계정 1** - ID: guest / PW: 1234  
+- **계정 2** - ID: foot / PW: 1234  
 
 <br>
 
